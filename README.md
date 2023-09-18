@@ -1,9 +1,9 @@
 
-NEURAL AUGMENTED AUXILIARY PARTICLE FILTERS WITH APPLICATION TO RADAR TRACK-BEFORE-DETECT" (Itai Nuri and Nir Shlezinger)
+NEURAL AUGMENTED AUXILIARY PARTICLE FILTERS WITH APPLICATION TO RADAR TRACK-BEFORE-DETECT"
 --
 this repository includes inference implementation of the paper: "NEURAL AUGMENTED AUXILIARY PARTICLE FILTERS WITH APPLICATION TO RADAR TRACK-BEFORE-DETECT" (Itai Nuri and Nir Shlezinger)
 
-- currently the repository supports only inferencing APP and NA-APF.
+- currently the repository only supports inferencing APP and NA-APF.
 - the saved weights for both accurate and mismatched sensors settings are included and loaded on their respective setting according to the configurations.
 - the mismatched configuration sensors offsets, in which the respective DNN weights were trained on, are also included and are loaded on that configuration.
 - the 10,000 testing trajectories of the paper are included, more trajectories can be created using this code.
@@ -14,7 +14,7 @@ Terminology:
 - APP - Auxiliary Parallel Partition (PF) (single target): APF + Kalman Filter for velocities 
 - NA-APF - Neural Augmented APF: APF + Kalman Filter + particles and weights correction DNN
 
-Environment Configurations
+Main Packages Versions
 --
     python	3.8.13
     pytorch	1.11.0
