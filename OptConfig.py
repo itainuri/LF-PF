@@ -69,7 +69,7 @@ class OptConfig(FrozenClass):
         self.lh_sig_sqd = 1 #variance of gaussian when comparing 2 pixels values in measurement
         self.cheat_dont_add_noise_to_meas = 0 # sensor doesn't have noise
         self.path2proj = ""
-        self.proj2datasets_path = "../ltbd0/particles/orig_motion"
+        self.proj2datasets_path = "./particles/orig_motion"
         self.proj2ckpnts_load_path = './state_dict/'
         if self.do_inaccurate_sensors_locs:
             self.att_state_dict_to_load_str = "mismatched_sensor_array_NN_weights.pt"
