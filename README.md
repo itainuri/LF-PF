@@ -17,12 +17,12 @@ the paper shows a 2-3 times reduction in number of particles, and an improvement
     + [particles](#particles)
     + [sensors_locs](#sensors_locs)
     + [state_dict](#state_dict)
-  * [Python Files](#Python Files)
+  * [Python Files](#Python-Files)
 - [Simulation](#Simulation)
   * [Environment Main Packages Versions](#Environment-Main-Packages-Versions)
   * [Paths definitions](#Paths-Definitions)
   * [Execution](#Execution)
-  * [Simulation Flags](#Simulation Flags)
+  * [Simulation Flags](#Simulation-Flags)
   
 # Introduction
 the provided code supports inferencing the experiments as described on the paper with the saved weights and sensors offsets. 
