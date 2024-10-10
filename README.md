@@ -1,4 +1,4 @@
-# NA-APF official
+# LF-APF official
 inference implementation of the Neural Augmented Auxiliary Particle Filter, from the paper: 
 
 Itai Nuri and Nir Shlezinger, 2023, "NEURAL AUGMENTED AUXILIARY PARTICLE FILTERS WITH APPLICATION TO RADAR TRACK-BEFORE-DETECT"
